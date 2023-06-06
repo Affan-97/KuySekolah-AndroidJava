@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NilaiDetailActivity">
+
+    <RelativeLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/layout_bg"
+        android:padding="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </RelativeLayout>
+
+    <!-- Title Halaman-->
+    <TextView
+        android:id="@+id/halNilaiDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/halaman_nilai"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="96dp"
+        android:background="@color/light_soft_grey"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:textColor="@color/black"
+            android:layout_marginEnd="8dp"
+            android:paddingVertical="8dp"
+            android:textStyle="bold"
+            android:background="@drawable/bg_mapel_kuning"
+            android:text="@string/agama"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+        </TextView>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="128dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_hijau_muda"
+                android:paddingHorizontal="32dp"
+                android:paddingVertical="2dp"
+                android:text="@string/tugas"
+                android:textColor="@color/grey"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TableRow
+                android:id="@+id/tableRow"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@color/light_grey"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:text="80"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:text="88"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:text="78"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:text="77"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:text="-"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+            </TableRow>
+
+            <TextView
+                android:id="@+id/ulhar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="130dp"
+                android:paddingHorizontal="32dp"
+                android:paddingVertical="2dp"
+                android:text="@string/ulangan_harian"
+                android:textColor="@color/grey"
+                android:background="@drawable/bg_hijau_muda"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@color/light_grey"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ulhar">
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:text="88"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:text="89"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:text="77"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:text="90"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:text="-"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            </TableRow>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="8dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <TextView
+                    android:id="@+id/uts"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:textColor="@color/grey"
+                    android:background="@drawable/bg_hijau_muda"
+                    android:text="@string/uts"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="95"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:textSize="25sp"
+                    android:textColor="@color/black"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent">
+
+                <TextView
+                    android:id="@+id/uas"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:text="@string/uas"
+                    android:textColor="@color/grey"
+                    android:background="@drawable/bg_hijau_muda"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="-"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:textSize="25sp"
+                    android:textColor="@color/black"
+                    android:background="@color/white">
+
+                </TextView>
+            </LinearLayout>
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

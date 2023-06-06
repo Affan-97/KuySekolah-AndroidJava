@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "739079202015",
+    "firebase_url": "https://auth3-ddaba-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "auth3-ddaba",
+    "storage_bucket": "auth3-ddaba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739079202015:android:e517b78983e5bc7ec5356a",
+        "android_client_info": {
+          "package_name": "com.example.kuysekolah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739079202015-ltb2ko9maql6rg2q4bnncv6h8e1er5qm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDepYvXz3CHyCMnSyjy3Pihe8YO6nZX7Is"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739079202015-ltb2ko9maql6rg2q4bnncv6h8e1er5qm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

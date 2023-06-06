@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_nilai"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<!-- Banner Header -->
+    <RelativeLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/layout_bg"
+        android:padding="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </RelativeLayout>
+
+<!-- Title Halaman-->
+    <TextView
+        android:id="@+id/halNilai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Nilai"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/linearlayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/round_biru"
+        android:paddingHorizontal="13dp"
+        android:paddingVertical="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearlayout">
+
+        <TextView
+            android:id="@+id/nilaiNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="@color/black"
+            android:text="@string/nama_panjang"
+            android:textAlignment="textStart"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/nilaiKelas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nilaiNama"
+            android:layout_alignStart="@+id/nilaiNama"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/grey"
+            android:layout_marginEnd="20dp"
+            android:text="@string/kelas"
+            android:textAlignment="textStart"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/nilaiAbsen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nilaiKelas"
+            android:layout_alignStart="@+id/nilaiKelas"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="@color/grey"
+            android:text="@string/absensi"
+            android:textAlignment="textStart"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="210dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/tab_bgnilai"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout2">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/listMapel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="46dp"
+            android:layout_marginTop="16dp"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"></androidx.recyclerview.widget.RecyclerView>
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

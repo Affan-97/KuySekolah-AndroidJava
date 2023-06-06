@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">KuySekolah</string>
+    <string name="absensi">Absensi</string>
+    <string name="lihat_profil">Lihat Profil</string>
+    <string name="hai">Hai!</string>
+    <string name="nama_panjang">Nama Panjang Murid</string>
+    <string name="kegiatan_sekarang">Kegiatan Sekarang</string>
+    <string name="jam">Jam</string>
+    <string name="mapel">Mapel</string>
+    <string name="nilai">Nilai</string>
+    <string name="catatan">Catatan</string>
+    <string name="jadwal">Jadwal</string>
+    <string name="kelas">Kelas</string>
+    <string name="profil">profil</string>
+    <string name="title_place_holder">Selamat Datang!</string>
+    <string name="isi_identitas">Silahkan Masukkan Identitas</string>
+    <string name="login">Login</string>
+    <string name="nis">NIS</string>
+    <string name="password">Password</string>
+    <string name="kosong" />
+    <string name="nomor">Nomor</string>
+    <string name="isi_notes">Isi Notes</string>
+    <string-array name="nomor_notes">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+
+    <string-array name="isi_notes">
+        <item>Halo aku adalah notes acak</item>
+        <item>Halo aku adalah notes acak</item>
+        <item>Halo aku adalah notes acak</item>
+        <item>Halo aku adalah notes acak</item>
+        <item>Halo aku adalah notes acak</item>
+        <item>Halo aku adalah notes acak</item>
+        <item>Halo aku adalah notes acak</item>
+        <item>Halo aku adalah notes acak</item>
+        <item>Halo aku adalah notes acak</item>
+    </string-array>
+    <string-array name="classroom">
+        <item>X MIPA 1</item>
+        <item>X MIPA 2</item>
+        <item>X MIPA 3</item>
+        <item>X MIPA 4</item>
+        <item>X MIPA 5</item>
+        <item>X MIPA 6</item>
+        <item>X MIPA 7</item>
+        <item>X MIPA 8</item>
+        <item>X IPS 1</item>
+        <item>X IPS 2</item>
+        <item>X IPS 3</item>
+        <item>X MIPA 1</item>
+        <item>X MIPA 2</item>
+        <item>X MIPA 3</item>
+        <item>X MIPA 4</item>
+        <item>X MIPA 5</item>
+        <item>X MIPA 6</item>
+        <item>X MIPA 7</item>
+        <item>X MIPA 8</item>
+        <item>X IPS 1</item>
+        <item>X IPS 2</item>
+        <item>X IPS 3</item>
+        <item>XI MIPA 1</item>
+        <item>XI MIPA 2</item>
+        <item>XI MIPA 3</item>
+        <item>XI MIPA 4</item>
+        <item>XI MIPA 5</item>
+        <item>XI MIPA 6</item>
+        <item>XI MIPA 7</item>
+        <item>XI MIPA 8</item>
+        <item>XI IPS 1</item>
+        <item>XI IPS 2</item>
+        <item>XI IPS 3</item>
+        <item>XII MIPA 1</item>
+        <item>XII MIPA 2</item>
+        <item>XII MIPA 3</item>
+        <item>XII MIPA 4</item>
+        <item>XII MIPA 5</item>
+        <item>XII MIPA 6</item>
+        <item>XII MIPA 7</item>
+        <item>XII MIPA 8</item>
+        <item>XII IPS 1</item>
+        <item>XII IPS 2</item>
+        <item>XII IPS 3</item>
+
+    </string-array>
+    <string name="tab_text_1">Senin</string>
+    <string name="tab_text_2">Selasa</string>
+    <string name="tab_text_3">Rabu</string>
+    <string name="tab_text_4">Kamis</string>
+    <string name="tab_text_5">Jumat</string>
+    <string name="jadwal_pelajaran">Jadwal Pelajaran</string>
+    <string name="halaman_nilai">Halaman Nilai</string>
+    <string name="tugas">Tugas</string>
+    <string name="ulangan_harian">Ulangan Harian</string>
+    <string name="uts">UTS</string>
+    <string name="uas">UAS</string>
+    <string name="agama">Agama</string>
+</resources>
